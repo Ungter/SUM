@@ -1,0 +1,3 @@
+displayName = Super Useful Mod
+author = jungter
+version = 0.1
