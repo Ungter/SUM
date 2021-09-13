@@ -14,7 +14,7 @@
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Weapons\Mainhand\" />
-    <Folder Include="Weapons\Subweapons\" />
+    <Folder Include="Items\Weapons\Mainhand\" />
+    <Folder Include="Items\Weapons\Subweapons\" />
   </ItemGroup>
 </Project>
