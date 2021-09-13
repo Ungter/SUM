@@ -3,7 +3,7 @@ using Terraria;
 using Microsoft.Xna.Framework;
 using Terraria.ModLoader;
 
-namespace sum.Weapons.Awaken { 
+namespace sum.Items.Weapons.Awaken { 
 
     public class greatBow : ModRecipe {
 
@@ -50,6 +50,7 @@ namespace sum.Weapons.Awaken {
         // uhhh ig it fits the lore (?????)
         public override void OnCraft(Item item) {
             Main.LocalPlayer.AddBuff(BuffID.Clairvoyance, 30);
+            Main.LocalPlayer.AddBuff(BuffID.Archery, 500);
         }
 
 
@@ -80,7 +81,7 @@ namespace sum.Weapons.Awaken {
             item.shoot = ProjectileID.WoodenArrowFriendly;
             item.useAmmo = AmmoID.Arrow;
             item.shootSpeed = 10;
-            // item.UseSound = idk yet
+            item.UseSound = SoundID.DD2_DrakinShot;
             item.autoReuse = true;
             
         }
